@@ -57,7 +57,9 @@ class App extends Component {
   }
 
   selectedCatalog(index) {
-
+    this.setState({
+      currentIndex:index
+    })
   }
 
   previousClick() {
