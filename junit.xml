@@ -1,6 +1,6 @@
-<testsuites name="jest tests" tests="16" failures="15" time="2.308">
-  <testsuite name="undefined" errors="0" failures="15" skipped="0" timestamp="2020-04-13T07:54:41" time="2.308" tests="16">
-    <testcase classname=" should create the catalog-viewer app" name=" should create the catalog-viewer app" time="0.05">
+<testsuites name="jest tests" tests="16" failures="14" time="2.472">
+  <testsuite name="undefined" errors="0" failures="14" skipped="0" timestamp="2020-04-13T08:57:47" time="2.472" tests="16">
+    <testcase classname=" should create the catalog-viewer app" name=" should create the catalog-viewer app" time="0.061">
       <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
 
 Expected the element to have class:
@@ -30,7 +30,7 @@ Received:
     at /Users/basri/Development/code/7d4e7ec0-4af0-49ba-b756-bbc0cfaadb85/node_modules/p-map/index.js:46:16
     at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
     </testcase>
-    <testcase classname=" should catalog-view load with first item of catalog" name=" should catalog-view load with first item of catalog" time="0.016">
+    <testcase classname=" should catalog-view load with first item of catalog" name=" should catalog-view load with first item of catalog" time="0.013">
       <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
 
 Expected the element to have class:
@@ -45,7 +45,7 @@ Received:
     at /Users/basri/Development/code/7d4e7ec0-4af0-49ba-b756-bbc0cfaadb85/node_modules/p-map/index.js:46:16
     at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
     </testcase>
-    <testcase classname=" catalog thumb icons length should be equal to catalog items length" name=" catalog thumb icons length should be equal to catalog items length" time="0.014">
+    <testcase classname=" catalog thumb icons length should be equal to catalog items length" name=" catalog thumb icons length should be equal to catalog items length" time="0.009">
       <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
 
 Expected the element to have class:
@@ -60,7 +60,7 @@ Received:
     at /Users/basri/Development/code/7d4e7ec0-4af0-49ba-b756-bbc0cfaadb85/node_modules/p-map/index.js:46:16
     at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
     </testcase>
-    <testcase classname=" Clicking on previous button should show the previous image" name=" Clicking on previous button should show the previous image" time="0.01">
+    <testcase classname=" Clicking on previous button should show the previous image" name=" Clicking on previous button should show the previous image" time="0.008">
       <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
 
 Expected the element to have class:
@@ -75,7 +75,7 @@ Received:
     at /Users/basri/Development/code/7d4e7ec0-4af0-49ba-b756-bbc0cfaadb85/node_modules/p-map/index.js:46:16
     at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
     </testcase>
-    <testcase classname=" Clicking on next button should show the next image" name=" Clicking on next button should show the next image" time="0.009">
+    <testcase classname=" Clicking on next button should show the next image" name=" Clicking on next button should show the next image" time="0.011">
       <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
 
 Expected the element to have class:
@@ -90,7 +90,7 @@ Received:
     at /Users/basri/Development/code/7d4e7ec0-4af0-49ba-b756-bbc0cfaadb85/node_modules/p-map/index.js:46:16
     at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
     </testcase>
-    <testcase classname=" Clicking on next button in the last item should show the first image" name=" Clicking on next button in the last item should show the first image" time="0.008">
+    <testcase classname=" Clicking on next button in the last item should show the first image" name=" Clicking on next button in the last item should show the first image" time="0.009">
       <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
 
 Expected the element to have class:
@@ -105,7 +105,7 @@ Received:
     at /Users/basri/Development/code/7d4e7ec0-4af0-49ba-b756-bbc0cfaadb85/node_modules/p-map/index.js:46:16
     at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
     </testcase>
-    <testcase classname=" Clicking on previous button in the first item should show the last image" name=" Clicking on previous button in the first item should show the last image" time="0.009">
+    <testcase classname=" Clicking on previous button in the first item should show the last image" name=" Clicking on previous button in the first item should show the last image" time="0.012">
       <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
 
 Expected the element to have class:
@@ -120,22 +120,9 @@ Received:
     at /Users/basri/Development/code/7d4e7ec0-4af0-49ba-b756-bbc0cfaadb85/node_modules/p-map/index.js:46:16
     at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
     </testcase>
-    <testcase classname=" Clicking on any indicator icon should show the appropriate image" name=" Clicking on any indicator icon should show the appropriate image" time="0.013">
-      <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
-
-Expected the element to have class:
-  thumb-selected
-Received:
-  thumb-outer
-    at Object.&lt;anonymous&gt; (/Users/basri/Development/code/7d4e7ec0-4af0-49ba-b756-bbc0cfaadb85/src/App.test.js:166:23)
-    at Object.asyncFn (/Users/basri/Development/code/7d4e7ec0-4af0-49ba-b756-bbc0cfaadb85/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at /Users/basri/Development/code/7d4e7ec0-4af0-49ba-b756-bbc0cfaadb85/node_modules/jest-jasmine2/build/queueRunner.js:38:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/Users/basri/Development/code/7d4e7ec0-4af0-49ba-b756-bbc0cfaadb85/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at /Users/basri/Development/code/7d4e7ec0-4af0-49ba-b756-bbc0cfaadb85/node_modules/p-map/index.js:46:16
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    <testcase classname=" Clicking on any indicator icon should show the appropriate image" name=" Clicking on any indicator icon should show the appropriate image" time="0.051">
     </testcase>
-    <testcase classname=" when slide enabled should change the image for every 3 seconds" name=" when slide enabled should change the image for every 3 seconds" time="0.009">
+    <testcase classname=" when slide enabled should change the image for every 3 seconds" name=" when slide enabled should change the image for every 3 seconds" time="0.011">
       <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
 
 Expected the element to have class:
@@ -149,7 +136,7 @@ Received:
     at /Users/basri/Development/code/7d4e7ec0-4af0-49ba-b756-bbc0cfaadb85/node_modules/p-map/index.js:46:16
     at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
     </testcase>
-    <testcase classname=" when slide enabled also user interaction like previous, next or indicator should work as expected" name=" when slide enabled also user interaction like previous, next or indicator should work as expected" time="0.008">
+    <testcase classname=" when slide enabled also user interaction like previous, next or indicator should work as expected" name=" when slide enabled also user interaction like previous, next or indicator should work as expected" time="0.009">
       <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
 
 Expected the element to have class:
@@ -163,7 +150,7 @@ Received:
     at /Users/basri/Development/code/7d4e7ec0-4af0-49ba-b756-bbc0cfaadb85/node_modules/p-map/index.js:46:16
     at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
     </testcase>
-    <testcase classname=" uncheck slide should stop changing the image for every 3 seconds" name=" uncheck slide should stop changing the image for every 3 seconds" time="0.008">
+    <testcase classname=" uncheck slide should stop changing the image for every 3 seconds" name=" uncheck slide should stop changing the image for every 3 seconds" time="0.01">
       <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
 
 Expected the element to have class:
@@ -177,7 +164,7 @@ Received:
     at /Users/basri/Development/code/7d4e7ec0-4af0-49ba-b756-bbc0cfaadb85/node_modules/p-map/index.js:46:16
     at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
     </testcase>
-    <testcase classname=" click on catalog thumb should update the viewer image" name=" click on catalog thumb should update the viewer image" time="0.01">
+    <testcase classname=" click on catalog thumb should update the viewer image" name=" click on catalog thumb should update the viewer image" time="0.039">
       <failure>Error: expect(string).toContain(value)
 
 Expected string:
@@ -192,7 +179,7 @@ To contain value:
     at /Users/basri/Development/code/7d4e7ec0-4af0-49ba-b756-bbc0cfaadb85/node_modules/p-map/index.js:46:16
     at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
     </testcase>
-    <testcase classname=" the first catalog thumb should have a background image &quot;/mobile-front-thumb.jpeg&quot;" name=" the first catalog thumb should have a background image &quot;/mobile-front-thumb.jpeg&quot;" time="0.009">
+    <testcase classname=" the first catalog thumb should have a background image &quot;/mobile-front-thumb.jpeg&quot;" name=" the first catalog thumb should have a background image &quot;/mobile-front-thumb.jpeg&quot;" time="0.008">
       <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
 
 Expected the element to have class:
@@ -207,7 +194,7 @@ Received:
     at /Users/basri/Development/code/7d4e7ec0-4af0-49ba-b756-bbc0cfaadb85/node_modules/p-map/index.js:46:16
     at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
     </testcase>
-    <testcase classname=" selected thumb should be highlighted with blue border by applying css class &quot;thumb-selected" name=" selected thumb should be highlighted with blue border by applying css class &quot;thumb-selected" time="0.009">
+    <testcase classname=" selected thumb should be highlighted with blue border by applying css class &quot;thumb-selected" name=" selected thumb should be highlighted with blue border by applying css class &quot;thumb-selected" time="0.012">
       <failure>Error: expect(element).toHaveClass(&quot;thumb-selected&quot;)
 
 Expected the element to have class:
